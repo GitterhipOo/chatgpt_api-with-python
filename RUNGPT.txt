@@ -1,0 +1,6 @@
+@echo off
+rem 调用miniconda3的activate.bat文件,你需要加入你的路径
+call miniconda
+rem 运行app.py文件 你需要加入你的路径
+streamlit run xx:/your_python\app.py
+pause
